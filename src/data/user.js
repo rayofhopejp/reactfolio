@@ -8,6 +8,7 @@ const INFO = {
 
 	socials: {
 		twitter: "https://x.com/rayofhopejp",
+		youtube: "https://www.youtube.com/@rayofhopejp",
 		github: "https://github.com/rayofhopejp",
 		linkedin: "https://www.linkedin.com/in/ray-oshikawa-a0b5b41b2/",
 		facebook: "https://www.facebook.com/profile.php?id=100008028138560",
@@ -24,11 +25,11 @@ const INFO = {
 	about: {
 		Name: "押川令 (Ray Oshikawa)",
 		Affiliation: [
-			{date:"2022 Apr-",place: "Amazon Web Serveces Japan",description:"地方自治体チームの Solutions Architect としてガバメントクラウド周りのサポートに携わっています。"},
+			{date:"2022 Apr-",place: "Amazon Web Services Japan",description:"地方自治体チームの Solutions Architect としてガバメントクラウド周りのサポートに携わっています。"},
 			{date:"2020 Apr-2022 Apr",place:"東京大学工学部電子情報工学科",description:"卒業論文は国際学会 (IEEE World Conference on Applied Intelligence and Computing (AIC)) に掲載されました"},
 			{date:"2018 Apr-2020 Apr",place:"東京大学教養学部（理科一類）",description:"大学一年次で書いた論文が国際学会 (Language Resources and Evaluation Conference(LREC)) に掲載され、450回以上引用されました。"}
 		],
-		Abstract: "AWS のソリューションアーキテクトとして公共機関、特に自治体関連のクラウドアーキテクティングに携わる。AWS におけるクラウドセキュリティを専門分野としている。その傍ら大学生のころから個人開発でウェブサイトなどを開発しており、フロントエンド（主に React など JavaScript, TypeScript）とバックエンド（JavaScriptやPythonなど、サーバーレス含む）、インフラ（AWS、AWS CDK などでの IaCを含む）の経験がある。大学時代の専攻は自然言語処理であり、主著であるフェイクニュースに関するサーベイは450回以上引用された。",
+		Abstract: "AWS のソリューションアーキテクトとして公共機関、特に自治体関連のクラウドアーキテクティングに携わる。AWS におけるクラウドセキュリティを専門分野としている。その傍ら大学生のころから個人でウェブサイトなどを開発しており、フロントエンド（主に React など JavaScript, TypeScript）とバックエンド（JavaScriptやPythonなど、サーバーレス含む）、インフラ（AWS、AWS CDK などでの IaCを含む）の経験がある。大学時代の専攻は自然言語処理であり、主著であるフェイクニュースに関するサーベイは450回以上引用された。",
 		Belief: [
 			{title:"Bias for Action ",description:"許容できるリスクは許容しながらすぐに行動することで、チャンスに後れを取らないことを重視しています。"},
 			{title:"Live as brave men; and if fortune is adverse, front its blows with brave hearts.",description:"決断を恐れない勇敢な心を持ち、チャレンジを重ねます。"}

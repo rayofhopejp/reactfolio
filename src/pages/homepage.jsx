@@ -9,9 +9,12 @@ import {
 	faLinkedin,
 	faFacebook,
 	faSlideshare,
-	faGooglePlus
+	faGooglePlus,
+	faYoutube
 } from "@fortawesome/free-brands-svg-icons";
-
+import {
+	faPencilAlt
+} from "@fortawesome/free-solid-svg-icons";
 import Logo from "../components/common/logo";
 
 import INFO from "../data/user";
@@ -120,6 +123,16 @@ const Homepage = () => {
 								/>
 							</a>
 							<a
+								href={INFO.socials.youtube}
+								target="_blank"
+								rel="noreferrer"
+							>
+								<FontAwesomeIcon
+									icon={faYoutube}
+									className="homepage-social-icon"
+								/>
+							</a>
+							<a
 								href={INFO.socials.github}
 								target="_blank"
 								rel="noreferrer"
@@ -176,6 +189,16 @@ const Homepage = () => {
 							>
 								<FontAwesomeIcon
 									icon={faMailBulk}
+									className="homepage-social-icon"
+								/>
+							</a>
+							<a
+								href={`https://qiita.com/rayofhopejp`}
+								target="_blank"
+								rel="noreferrer"
+							>
+								<FontAwesomeIcon
+									icon={faPencilAlt}
 									className="homepage-social-icon"
 								/>
 							</a>
