@@ -56,6 +56,21 @@
 	width: 70%;
 }
 
+.section {
+	color: var(--primary-color);
+	font-family: var(--secondary-font);
+	font-size: 20px;
+	font-weight: 700;
+	width: 70%;
+}
+
+.normaltext {
+	padding: 10px;
+	color: var(--secondary-color);
+	font-size: 16px;
+	line-height: 28px;
+}
+
 .subtitle {
 	padding-top: 10px;
 	color: var(--secondary-color);

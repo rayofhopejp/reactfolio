@@ -60,13 +60,12 @@
 	width: 100%;
 }
 
-.about-socials {
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
-
-.about-socials-mobile {
-	display: none;
+.about-affiliations {
+	padding-top: 0px;
+	padding-left: 35px;
+	padding-bottom: 20px;
+	border-left: 2px solid #f4f4f5;
+	width: 100%;
 }
 
 @media (max-width: 1024px) {

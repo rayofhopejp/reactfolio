@@ -4,8 +4,7 @@ import { Helmet } from "react-helmet";
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
-import Socials from "../components/about/socials";
-
+import History from "../components/homepage/history";
 import INFO from "../data/user";
 import SEO from "../data/seo";
 
@@ -20,17 +19,7 @@ const About = () => {
 
 	return (
 		<React.Fragment>
-			<Helmet>
-				<title>{`About | ${INFO.main.title}`}</title>
-				<meta name="description" content={currentSEO.description} />
-				<meta
-					name="keywords"
-					content={currentSEO.keywords.join(", ")}
-				/>
-			</Helmet>
-
 			<div className="page-content">
-				<NavBar active="about" />
 				<div className="content-wrapper">
 					<div className="about-logo-container">
 						<div className="about-logo">
@@ -40,38 +29,135 @@ const About = () => {
 
 					<div className="about-container">
 						<div className="about-main">
-							<div className="about-right-side">
+							<div className="about-profile">
 								<div className="title about-title">
-									{INFO.about.title}
+									Profile
 								</div>
-
-								<div className="subtitle about-subtitle">
-									{INFO.about.description}
+								<div className="about-subtitle">
+									<div className="section">Name</div>
+									<div className="normaltext">{INFO.about.Name}</div>
 								</div>
-							</div>
-
-							<div className="about-left-side">
-								<div className="about-image-container">
-									<div className="about-image-wrapper">
-										<img
-											src="about.jpg"
-											alt="about"
-											className="about-image"
-										/>
+								<div className="about-subtitle">
+									<div className="section">Abstract</div>
+									<div className="normaltext">{INFO.about.Abstract}</div>
+								</div>
+								<div className="about-subtitle">
+									<div className="section">Belief</div>
+									<div className="normaltext">
+										<ul>
+										{INFO.about.Belief.map((data, index) => (
+												<li key={(index + 1).toString()}>{data.title} - {data.description}</li>
+										))}
+										</ul>
 									</div>
 								</div>
-
-								<div className="about-socials">
-									<Socials />
+								<div className="about-subtitle">
+									<div className="section">History</div>
+									{INFO.about.Affiliation.map((data, index) => (
+										<div
+											className=".about-affiliation"
+											key={(index + 1).toString()}
+										>
+											<History
+												key={(index + 1).toString()}
+												date={data.date}
+												title={data.place}
+												description={data.description}
+												link={undefined}
+											/>
+										</div>
+									))}
+								</div>
+								<div className="about-subtitle">
+									<div className="section">Specialty</div>
+									<div className="normaltext">
+										<ul>
+										{INFO.about.Speciality.map((data, index) => (
+												<li key={(index + 1).toString()}>{data}</li>
+										))}
+										</ul>
+									</div>
+								</div>
+								<div className="about-subtitle">
+									<div className="section">Certificate</div>
+									<div className="normaltext">
+										<ul>
+										{INFO.about.Certificate.map((data, index) => (
+												<li key={(index + 1).toString()}>{data}</li>
+										))}
+										</ul>
+									</div>
+								</div>
+								<div className="about-subtitle">
+									<div className="section">Awards</div>
+									{INFO.about.Awards.map((data, index) => (
+										<div
+											className=".about-history"
+											key={(index + 1).toString()}
+										>
+											<History
+												key={(index + 1).toString()}
+												date={data.date}
+												title={data.title}
+												description={data.description}
+												link={data.link}
+											/>
+										</div>
+									))}
+								</div>
+								<div className="about-subtitle">
+									<div className="section">Stages</div>
+									{INFO.about.Stage.map((data, index) => (
+										<div
+											className=".about-publications"
+											key={(index + 1).toString()}
+										>
+											<History
+												key={(index + 1).toString()}
+												date={data.date}
+												title={data.title}
+												description={data.description}
+												link={data.link}
+											/>
+										</div>
+									))}
+								</div>
+								<div className="about-subtitle">
+									<div className="section">Publications</div>
+									{INFO.about.Publications.map((data, index) => (
+										<div
+											className=".about-publications"
+											key={(index + 1).toString()}
+										>
+											<History
+												key={(index + 1).toString()}
+												date={data.date}
+												title={data.title}
+												description={data.description}
+												link={data.link}
+											/>
+										</div>
+									))}
+								</div>
+								<div className="about-subtitle">
+									<div className="section">Projects</div>
+									{INFO.about.Projects.map((data, index) => (
+										<div
+											className=".about-history"
+											key={(index + 1).toString()}
+										>
+											<History
+												key={(index + 1).toString()}
+												date={data.date}
+												title={data.title}
+												description={data.description}
+												link={data.link}
+											/>
+										</div>
+									))}
 								</div>
 							</div>
 						</div>
-						<div className="about-socials-mobile">
-							<Socials />
-						</div>
-					</div>
-					<div className="page-footer">
-						<Footer />
 					</div>
 				</div>
 			</div>

@@ -71,6 +71,7 @@
 
 .homepage-after-title {
 	display: flex;
+	padding-top: 50px;
 }
 
 .homepage-projects {
