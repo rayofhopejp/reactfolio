@@ -63,6 +63,7 @@ const INFO = {
 		],
 		Stage:[
 			{date:"2023",title:"アップデート紹介とちょっぴり DiveDeep する AWS の時間 第二十六回 登壇",description:"「AWS Glue on Ray ではじめるデータ分析とそのパフォーマンス」について説明しました",link:"https://aws.amazon.com/jp/blogs/news/update-divedeep-series-26/"},
+			{date:"2023",title:"AWS Secrets Manager【AWS Black Belt】",description:"",link:"https://youtu.be/r7JQSBaQwh4?si=gdQVxdygsZRjYwxB"},
 			{date:"2024",title:"ISUNARABE LT#1 主催",description:"KOBA789 さんと一緒に ISUNARABE LT の主催と登壇を行いました",link:"https://isunarabe.connpass.com/event/310556/"},
 			{date:"2024",title:"Security-JAWS【第34回】登壇",description:"IAM Access Analyzer カスタムポリシーチェック機能 を Dive Deep しました",link:"https://www.youtube.com/live/nc_1r9K_8ms?si=QIkCeLH3I3rxhUgj&t=5128"},
 		],
@@ -75,6 +76,8 @@ const INFO = {
 			{date:"2024",title:"ガバメントクラウド活用のヒント『共同利用方式におけるコスト・ セキュリティ管理について』",description:"AWS ブログ",link:"https://aws.amazon.com/jp/blogs/news/govcloud-hint-for-shared-use-cost-security/"},
 			{date:"2024",title:"FSI Resiliency Quest (日本語版)",description:"AWS ワークショップ (翻訳)",link:"https://catalog.us-east-1.prod.workshops.aws/workshops/6cf4732f-3f59-476b-bf6c-49a14ceaf7bb/ja-JP"},
 			{date:"2024",title:"ガバメントクラウド活用のヒント『見積もりで注意すべきポイント』",description:"AWS ブログ",link:"https://aws.amazon.com/jp/blogs/news/cost-estimation-for-lg-govcloud-jp/"},
+			{date:"2025",title:"詳細解説：標準準拠システムデータ連携",description:"AWS ブログ",link:"https://aws.amazon.com/jp/blogs/news/auth-lg-governmentcloud-jp/"},
+			{date:"2025",title:"ガバメントクラウド活用のヒント『運用保守経路について』",description:"AWS ブログ",link:"https://aws.amazon.com/jp/blogs/news/maintenance-pathways-lg-governmentcloud-jp/"},
 		],
 		Projects:[
 			{date:"2024",title:"Template for Closed Network System Workloads on AWS",description:"AWS Samples",link:"https://github.com/aws-samples/template-for-closed-network-system-workloads-on-aws"},
