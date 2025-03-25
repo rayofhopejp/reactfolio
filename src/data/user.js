@@ -32,7 +32,6 @@ const INFO = {
 		Abstract: "AWS のソリューションアーキテクトとして公共機関、特に自治体関連のクラウドアーキテクティングに携わる。AWS におけるクラウドセキュリティを専門分野としている。その傍ら大学生のころから個人でウェブサイトなどを開発しており、フロントエンド（主に React など JavaScript, TypeScript）とバックエンド（JavaScriptやPythonなど、サーバーレス含む）、インフラ（AWS、AWS CDK などでの IaCを含む）の経験がある。大学時代の専攻は自然言語処理であり、主著であるフェイクニュースに関するサーベイは450回以上引用された。",
 		Belief: [
 			{title:"Bias for Action ",description:"許容できるリスクは許容しながらすぐに行動することで、チャンスに後れを取らないことを重視しています。"},
-			{title:"Live as brave men; and if fortune is adverse, front its blows with brave hearts.",description:"決断を恐れない勇敢な心を持ち、チャレンジを重ねます。"}
 		],
 		Speciality:[
 			"AWS クラウド、特にセキュリティ",
@@ -78,11 +77,11 @@ const INFO = {
 			{date:"2024",title:"ガバメントクラウド活用のヒント『見積もりで注意すべきポイント』",description:"AWS ブログ",link:"https://aws.amazon.com/jp/blogs/news/cost-estimation-for-lg-govcloud-jp/"},
 			{date:"2025",title:"詳細解説：標準準拠システムデータ連携",description:"AWS ブログ",link:"https://aws.amazon.com/jp/blogs/news/auth-lg-governmentcloud-jp/"},
 			{date:"2025",title:"ガバメントクラウド活用のヒント『運用保守経路について』",description:"AWS ブログ",link:"https://aws.amazon.com/jp/blogs/news/maintenance-pathways-lg-governmentcloud-jp/"},
+			{date:"2025",title:"障害復旧体験ワークショップ",description:"AWS ワークショップ",link:"https://catalog.us-east-1.prod.workshops.aws/workshops/2e6fd7f9-1e14-4fd0-a47c-bedc0b8834fa/ja-JP"},
 		],
 		Projects:[
 			{date:"2024",title:"Template for Closed Network System Workloads on AWS",description:"AWS Samples",link:"https://github.com/aws-samples/template-for-closed-network-system-workloads-on-aws"},
 			{date:"2024",title:"IAM Access Analyzer CI/CD test",description:"Sample Repository",link:"https://github.com/rayofhopejp/iam-access-analyzer-cicd-test"},
-			{date:"2024",title:"Vgeek Production",description:"Tech 系 VTuber グループ「ぶいぎーく」の企画運営をしています",link:"https://vgeekpro.com/"},
 		]
 	},
 };
