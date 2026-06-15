@@ -27,9 +27,9 @@ const INFO = {
 		Affiliation: [
 			{date:"2022 Apr-",place: "Amazon Web Services Japan",description:"地方自治体チームの Solutions Architect としてガバメントクラウド周りのサポートに携わっています。"},
 			{date:"2020 Apr-2022 Apr",place:"東京大学工学部電子情報工学科",description:"卒業論文は国際学会 (IEEE World Conference on Applied Intelligence and Computing (AIC)) に掲載されました"},
-			{date:"2018 Apr-2020 Apr",place:"東京大学教養学部（理科一類）",description:"大学一年次で書いた論文が国際学会 (Language Resources and Evaluation Conference(LREC)) に掲載され、450回以上引用されました。"}
+			{date:"2018 Apr-2020 Apr",place:"東京大学教養学部（理科一類）",description:"大学一年次で書いた論文が国際学会 (Language Resources and Evaluation Conference(LREC)) に掲載され、640回以上引用されました。"}
 		],
-		Abstract: "AWS のソリューションアーキテクトとして公共機関、特に自治体関連のクラウドアーキテクティングに携わる。AWS におけるクラウドセキュリティを専門分野としている。その傍ら大学生のころから個人でウェブサイトなどを開発しており、フロントエンド（主に React など JavaScript, TypeScript）とバックエンド（JavaScriptやPythonなど、サーバーレス含む）、インフラ（AWS、AWS CDK などでの IaCを含む）の経験がある。大学時代の専攻は自然言語処理であり、主著であるフェイクニュースに関するサーベイは450回以上引用された。",
+		Abstract: "AWS のソリューションアーキテクトとして公共機関、特に自治体関連のクラウドアーキテクティングに携わる。AWS におけるクラウドセキュリティを専門分野としている。その傍ら大学生のころから個人でウェブサイトなどを開発しており、フロントエンド（主に React など JavaScript, TypeScript）とバックエンド（JavaScriptやPythonなど、サーバーレス含む）、インフラ（AWS、AWS CDK などでの IaCを含む）の経験がある。大学時代の専攻は自然言語処理であり、主著であるフェイクニュースに関するサーベイは640回以上引用された。",
 		Belief: [
 			{title:"Bias for Action ",description:"許容できるリスクは許容しながらすぐに行動することで、チャンスに後れを取らないことを重視しています。"},
 		],
@@ -65,9 +65,12 @@ const INFO = {
 			{date:"2023",title:"AWS Secrets Manager【AWS Black Belt】",description:"",link:"https://youtu.be/r7JQSBaQwh4?si=gdQVxdygsZRjYwxB"},
 			{date:"2024",title:"ISUNARABE LT#1 主催",description:"KOBA789 さんと一緒に ISUNARABE LT の主催と登壇を行いました",link:"https://isunarabe.connpass.com/event/310556/"},
 			{date:"2024",title:"Security-JAWS【第34回】登壇",description:"IAM Access Analyzer カスタムポリシーチェック機能 を Dive Deep しました",link:"https://www.youtube.com/live/nc_1r9K_8ms?si=QIkCeLH3I3rxhUgj&t=5128"},
+			{date:"2025",title:"Gov-JAWS#4 登壇",description:"窓口業務を生成AIにおまかせ！Amazon Bedrock AgentCoreで実現する自治体AIエージェント！",link:"https://youtu.be/A-pa-ENql8k?si=ATUooMBKG7PAKmjd"},
+			{date:"2026",title:"地方自治体DX推進セミナー2026 登壇",description:"次世代行政を支えるAI戦略～自律型AI・ガバメントAIの融合と実装～！",link:"https://www.bsnnet.co.jp/news/.assets/%E3%80%90%E6%A1%88%E5%86%85%E7%8A%B6%E3%80%91%E5%9C%B0%E6%96%B9%E8%87%AA%E6%B2%BB%E4%BD%93DX%E6%8E%A8%E9%80%B2%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC2026.pdf"},
+			{date:"2026",title:"にいがた官民デジタル革新フォーラム 登壇",description:"生成AIの最新動向と行政および民間事業での活用事例",link:"https://x.com/rayofhopejp/status/2057018622611239083?s=20"},
 		],
 		Publications:[
-			{date:"2018",title:"A Survey on Natural Language Processing for Fake News Detection の執筆",description:"Language Resources and Evaluation Conference (LREC 2020) に掲載され、450回以上引用されました",link:"https://arxiv.org/abs/1811.00770"},
+			{date:"2018",title:"A Survey on Natural Language Processing for Fake News Detection の執筆",description:"Language Resources and Evaluation Conference (LREC 2020) に掲載され、640回以上引用されました",link:"https://arxiv.org/abs/1811.00770"},
 			{date:"2022",title:"Evolutionary Generative Adversarial Networks for Sentence Generation from Keyword の執筆",description:" IEEE World Conference on Applied Intelligence and Computing (AIC) に掲載されました",link:"https://ieeexplore.ieee.org/abstract/document/9848944"},
 			{date:"2023",title:"AWS PrivateLink ワークショップ",description:"AWS ワークショップ",link:"https://catalog.us-east-1.prod.workshops.aws/workshops/a47907fc-ead9-4cc5-b964-3f208ddd472f/ja-JP"},
 			{date:"2023",title:"AWS セキュリティサービス概観 ワークショップ",description:"AWS ワークショップ",link:"https://catalog.us-east-1.prod.workshops.aws/workshops/e5333211-d51a-49a4-9a89-e50738df59d4/ja-JP"},
@@ -82,6 +85,8 @@ const INFO = {
 		Projects:[
 			{date:"2024",title:"Template for Closed Network System Workloads on AWS",description:"AWS Samples",link:"https://github.com/aws-samples/template-for-closed-network-system-workloads-on-aws"},
 			{date:"2024",title:"IAM Access Analyzer CI/CD test",description:"Sample Repository",link:"https://github.com/rayofhopejp/iam-access-analyzer-cicd-test"},
+			{date:"2026",title:"Municipal Service Desk Agent",description:"AWS Samples",link:"https://github.com/aws-samples/sample-lg-ai-service-desk"},
+			{date:"2026",title:"Review & Assessment Powered by Intelligent Documentation (RAPID)",description:"AWS Samples",link:"https://github.com/aws-samples/review-and-assessment-powered-by-intelligent-documentation"},
 		]
 	},
 };
